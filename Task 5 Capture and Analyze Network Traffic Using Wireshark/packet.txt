@@ -1,0 +1,1239 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.1.4           192.168.1.255         BROWSER  286    Host Announcement METASPLOITABLE, Workstation, Server, Print Queue Server, Xenix Server, NT Workstation, NT Server, Potential Browser
+
+Frame 1: 286 bytes on wire (2288 bits), 286 bytes captured (2288 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 138, Dst Port: 138
+NetBIOS Datagram Service
+SMB (Server Message Block Protocol)
+SMB MailSlot Protocol
+Microsoft Windows Browser Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 29.133454631   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 2: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 29.133923260   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 29.258477128   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.1? Tell 192.168.1.5
+
+Frame 4: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 29.258786269   52:54:00:12:35:00     PCSSystemtec_d1:f8:5d ARP      60     192.168.1.1 is at 52:54:00:12:35:00
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 29.258793048   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x3ac6 PTR 4.1.168.192.in-addr.arpa
+
+Frame 6: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 50209, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 29.308389286   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x3ac6 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 7: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 50209
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 29.341262876   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 8: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 29.341914821   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 9: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 29.341922413   192.168.1.5           192.168.1.4           TCP      54     49401 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 10: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 49401, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 29.443592900   192.168.1.5           192.168.1.4           TCP      54     49403 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 11: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 49403, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 29.799762439   fe80::c0a4:5123:8e6:91f9 ff02::2               ICMPv6   62     Router Solicitation
+
+Frame 12: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::c0a4:5123:8e6:91f9, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 31.833018582   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 13: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 31.834159684   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 31.904972983   192.168.1.5           8.8.8.8               DNS      84     Standard query 0xeae3 PTR 4.1.168.192.in-addr.arpa
+
+Frame 15: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41048, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 31.953601294   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0xeae3 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 16: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 41048
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 31.976241534   192.168.1.5           192.168.1.4           TCP      54     54732 → 80 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
+
+Frame 17: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 54732, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 32.078674056   192.168.1.5           192.168.1.4           TCP      54     54734 → 80 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
+
+Frame 18: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 54734, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 34.324537715   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 19: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 34.325262480   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 20: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 34.411957037   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x8277 PTR 4.1.168.192.in-addr.arpa
+
+Frame 21: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 44698, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 34.472200053   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x8277 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 22: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 44698
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 34.496905905   192.168.1.5           192.168.1.4           TCP      54     58774 → 80 [ACK] Seq=1 Ack=1 Win=1024 Len=0
+
+Frame 23: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 58774, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 34.497594719   192.168.1.4           192.168.1.5           TCP      60     80 → 58774 [RST] Seq=1 Win=0 Len=0
+
+Frame 24: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 58774, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 36.614633384   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x1ef9 PTR 4.1.168.192.in-addr.arpa
+
+Frame 25: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 42024, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 36.663586635   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x1ef9 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 26: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 42024
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 36.664121520   192.168.1.5           192.168.1.4           TCP      74     35152 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=1489243779 TSecr=0 WS=128
+
+Frame 27: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 35152, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 36.665538387   192.168.1.4           192.168.1.5           TCP      74     80 → 35152 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 SACK_PERM TSval=4294961872 TSecr=1489243779 WS=32
+
+Frame 28: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 35152, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 36.665589211   192.168.1.5           192.168.1.4           TCP      66     35152 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1489243780 TSecr=4294961872
+
+Frame 29: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 35152, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 36.665640226   192.168.1.5           192.168.1.4           TCP      66     35152 → 80 [RST, ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1489243780 TSecr=4294961872
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 35152, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 38.804183334   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 31: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 38.805047090   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 32: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 38.876128560   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x18b1 PTR 4.1.168.192.in-addr.arpa
+
+Frame 33: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 53195, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 38.931374912   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x18b1 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 34: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 53195
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 38.944466644   192.168.1.5           192.168.1.4           TCP      58     47692 → 80 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+
+Frame 35: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 47692, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 38.944898187   192.168.1.4           192.168.1.5           TCP      60     80 → 47692 [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1460
+
+Frame 36: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 47692, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 38.944922097   192.168.1.5           192.168.1.4           TCP      54     47692 → 80 [RST] Seq=1 Win=0 Len=0
+
+Frame 37: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 47692, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 41.072199090   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 38: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 41.072815128   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 39: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 41.129881100   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x78a8 PTR 4.1.168.192.in-addr.arpa
+
+Frame 40: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 51669, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 41.183569932   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x78a8 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 41: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 51669
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 41.212656106   192.168.1.5           192.168.1.4           TCP      54     62878 → 80 [FIN] Seq=1 Win=1024 Len=0
+
+Frame 42: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 62878, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 41.408112227   192.168.1.5           192.168.1.4           TCP      54     62880 → 80 [FIN] Seq=1 Win=1024 Len=0
+
+Frame 43: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 62880, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 43.692271909   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 44: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 43.693141266   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 45: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 43.825621519   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x92b1 PTR 4.1.168.192.in-addr.arpa
+
+Frame 46: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 37782, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 43.873868251   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x92b1 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 47: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 37782
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 43.888451130   192.168.1.5           192.168.1.4           TCP      54     51819 → 80 [FIN, ACK] Seq=1 Ack=1 Win=1024 Len=0
+
+Frame 48: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 51819, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 43.889070999   192.168.1.4           192.168.1.5           TCP      60     80 → 51819 [RST] Seq=1 Win=0 Len=0
+
+Frame 49: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 51819, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 48.882036654   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     Who has 192.168.1.5? Tell 192.168.1.4
+
+Frame 50: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 48.882121641   PCSSystemtec_d1:f8:5d PCSSystemtec_c1:cf:f6 ARP      42     192.168.1.5 is at 08:00:27:d1:f8:5d
+
+Frame 51: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 49.177495937   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 52: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 49.178410208   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 53: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 49.237672552   192.168.1.5           8.8.8.8               DNS      84     Standard query 0xf28f PTR 4.1.168.192.in-addr.arpa
+
+Frame 54: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 33113, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 49.290349017   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0xf28f No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 55: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 33113
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 49.301897192   192.168.1.5           192.168.1.4           TCP      54     42021 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 56: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 42021, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 49.551990503   192.168.1.5           192.168.1.4           TCP      54     42023 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 57: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 42023, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 51.797566632   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 58: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 51.798004233   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 59: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 51.920778595   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x0796 PTR 4.1.168.192.in-addr.arpa
+
+Frame 60: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 46812, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 51.968525708   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x0796 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 61: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 46812
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 52.019102032   192.168.1.5           192.168.1.4           TCP      54     48179 → 80 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
+
+Frame 62: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 48179, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 52.132326841   192.168.1.5           192.168.1.4           TCP      54     48181 → 80 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
+
+Frame 63: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 48181, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 54.333335765   PCSSystemtec_d1:f8:5d 52:54:00:12:35:00     ARP      42     Who has 192.168.1.1? Tell 192.168.1.5
+
+Frame 64: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 54.334316680   52:54:00:12:35:00     PCSSystemtec_d1:f8:5d ARP      60     192.168.1.1 is at 52:54:00:12:35:00
+
+Frame 65: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 54.481892007   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 66: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 54.482728229   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 67: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 54.589233643   192.168.1.5           8.8.8.8               DNS      84     Standard query 0xddfe PTR 4.1.168.192.in-addr.arpa
+
+Frame 68: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40496, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 54.637131943   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0xddfe No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 69: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 40496
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 54.671631354   192.168.1.5           192.168.1.4           TCP      54     47875 → 80 [ACK] Seq=1 Ack=1 Win=1024 Len=0
+
+Frame 70: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 47875, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 54.672442287   192.168.1.4           192.168.1.5           TCP      60     80 → 47875 [RST] Seq=1 Win=0 Len=0
+
+Frame 71: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 47875, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 56.807651555   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x5eaf PTR 4.1.168.192.in-addr.arpa
+
+Frame 72: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 33490, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 56.866452858   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x5eaf No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 73: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 33490
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 56.866846523   192.168.1.5           192.168.1.4           TCP      74     44648 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=1489263981 TSecr=0 WS=128
+
+Frame 74: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 44648, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 56.868408767   192.168.1.4           192.168.1.5           TCP      74     80 → 44648 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 SACK_PERM TSval=4294963892 TSecr=1489263981 WS=32
+
+Frame 75: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 44648, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 56.868452497   192.168.1.5           192.168.1.4           TCP      66     44648 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1489263983 TSecr=4294963892
+
+Frame 76: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 44648, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 56.868515061   192.168.1.5           192.168.1.4           TCP      66     44648 → 80 [RST, ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1489263983 TSecr=4294963892
+
+Frame 77: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 44648, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 58.993076836   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 78: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 58.993578112   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 79: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 59.072339871   192.168.1.5           8.8.8.8               DNS      84     Standard query 0xe354 PTR 4.1.168.192.in-addr.arpa
+
+Frame 80: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 35414, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 59.129405619   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0xe354 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 81: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 35414
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 59.159400453   192.168.1.5           192.168.1.4           TCP      58     43018 → 80 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+
+Frame 82: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 43018, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 59.159987368   192.168.1.4           192.168.1.5           TCP      60     80 → 43018 [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1460
+
+Frame 83: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 43018, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 59.160035977   192.168.1.5           192.168.1.4           TCP      54     43018 → 80 [RST] Seq=1 Win=0 Len=0
+
+Frame 84: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 43018, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 61.312585267   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 85: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 61.312939071   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 86: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 61.408434134   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x0b17 PTR 4.1.168.192.in-addr.arpa
+
+Frame 87: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 33640, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 61.463185740   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x0b17 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 88: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 33640
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 61.486335027   192.168.1.5           192.168.1.4           TCP      54     62669 → 80 [FIN] Seq=1 Win=1024 Len=0
+
+Frame 89: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 62669, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 61.702672194   192.168.1.5           192.168.1.4           TCP      54     62671 → 80 [FIN] Seq=1 Win=1024 Len=0
+
+Frame 90: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 62671, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 63.997476806   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 91: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 63.998014597   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 92: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 64.092389258   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x4f14 PTR 4.1.168.192.in-addr.arpa
+
+Frame 93: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34376, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 64.140993665   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x4f14 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 94: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 34376
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 64.165343904   192.168.1.5           192.168.1.4           TCP      54     58546 → 80 [FIN, ACK] Seq=1 Ack=1 Win=1024 Len=0
+
+Frame 95: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 58546, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 64.165943195   192.168.1.4           192.168.1.5           TCP      60     80 → 58546 [RST] Seq=1 Win=0 Len=0
+
+Frame 96: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 58546, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 69.433073008   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 97: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 69.433860026   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 98: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 69.521957904   192.168.1.5           8.8.8.8               DNS      84     Standard query 0xcc48 PTR 4.1.168.192.in-addr.arpa
+
+Frame 99: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 45688, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 69.570631126   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0xcc48 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 100: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 45688
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 69.592950523   192.168.1.5           192.168.1.4           TCP      54     48602 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 101: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 48602, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 69.748958895   192.168.1.5           192.168.1.4           TCP      54     48604 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 102: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 48604, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 72.064644054   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 103: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 72.065083151   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 104: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 72.156628846   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x1931 PTR 4.1.168.192.in-addr.arpa
+
+Frame 105: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 52017, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 72.216537865   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x1931 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 106: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 52017
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 72.238207215   192.168.1.5           192.168.1.4           TCP      54     46879 → 80 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
+
+Frame 107: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 46879, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 72.381246492   192.168.1.5           192.168.1.4           TCP      54     46881 → 80 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
+
+Frame 108: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 46881, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 73.174628652   PCSSystemtec_c1:cf:f6 Broadcast             ARP      60     Who has 192.168.1.3? Tell 192.168.1.4
+
+Frame 109: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 73.174628899   PCSSystemtec_40:c2:1f PCSSystemtec_c1:cf:f6 ARP      60     192.168.1.3 is at 08:00:27:40:c2:1f
+
+Frame 110: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_40:c2:1f (08:00:27:40:c2:1f), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 73.174835137   192.168.1.4           192.168.1.3           DHCP     342    DHCP Request  - Transaction ID 0x9e387f2c
+
+Frame 111: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_40:c2:1f (08:00:27:40:c2:1f)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+Dynamic Host Configuration Protocol (Request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 73.177511357   192.168.1.3           192.168.1.4           DHCP     590    DHCP ACK      - Transaction ID 0x9e387f2c
+
+Frame 112: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_40:c2:1f (08:00:27:40:c2:1f), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 192.168.1.4
+User Datagram Protocol, Src Port: 67, Dst Port: 68
+Dynamic Host Configuration Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 74.645570818   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 113: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 74.646433133   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 114: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 74.743310735   192.168.1.5           8.8.8.8               DNS      84     Standard query 0xcc95 PTR 4.1.168.192.in-addr.arpa
+
+Frame 115: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 49065, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 74.796583288   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0xcc95 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 116: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 49065
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 74.837031486   192.168.1.5           192.168.1.4           TCP      54     34225 → 80 [ACK] Seq=1 Ack=1 Win=1024 Len=0
+
+Frame 117: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 34225, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 74.837431850   192.168.1.4           192.168.1.5           TCP      60     80 → 34225 [RST] Seq=1 Win=0 Len=0
+
+Frame 118: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 34225, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 77.121576693   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x7c32 PTR 4.1.168.192.in-addr.arpa
+
+Frame 119: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60769, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 77.173268134   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x7c32 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 120: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 60769
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 77.173461860   192.168.1.5           192.168.1.4           TCP      74     40524 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=1489284288 TSecr=0 WS=128
+
+Frame 121: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 40524, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 77.174002401   192.168.1.4           192.168.1.5           TCP      74     80 → 40524 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 SACK_PERM TSval=4294965921 TSecr=1489284288 WS=32
+
+Frame 122: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 40524, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 77.174029141   192.168.1.5           192.168.1.4           TCP      66     40524 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1489284289 TSecr=4294965921
+
+Frame 123: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 40524, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 77.174238866   192.168.1.5           192.168.1.4           TCP      66     40524 → 80 [RST, ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1489284289 TSecr=4294965921
+
+Frame 124: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 40524, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 77.425838099   PCSSystemtec_d1:f8:5d 52:54:00:12:35:00     ARP      42     Who has 192.168.1.1? Tell 192.168.1.5
+
+Frame 125: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 77.426078157   52:54:00:12:35:00     PCSSystemtec_d1:f8:5d ARP      60     192.168.1.1 is at 52:54:00:12:35:00
+
+Frame 126: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 79.418479757   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 127: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 79.419305158   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 128: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 79.526876044   192.168.1.5           8.8.8.8               DNS      84     Standard query 0xeb88 PTR 4.1.168.192.in-addr.arpa
+
+Frame 129: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 33211, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 79.580794346   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0xeb88 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 130: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 33211
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 79.616060865   192.168.1.5           192.168.1.4           TCP      58     46331 → 80 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+
+Frame 131: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 46331, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 79.617025712   192.168.1.4           192.168.1.5           TCP      60     80 → 46331 [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1460
+
+Frame 132: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 46331, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 79.617072544   192.168.1.5           192.168.1.4           TCP      54     46331 → 80 [RST] Seq=1 Win=0 Len=0
+
+Frame 133: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 46331, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 81.832378885   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 134: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 81.833252688   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 135: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 81.884170505   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x2e25 PTR 4.1.168.192.in-addr.arpa
+
+Frame 136: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 44763, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 81.937902585   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x2e25 No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 137: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 44763
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 81.945483649   192.168.1.5           192.168.1.4           TCP      54     47258 → 80 [FIN] Seq=1 Win=1024 Len=0
+
+Frame 138: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 47258, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 82.125327799   192.168.1.5           192.168.1.4           TCP      54     47260 → 80 [FIN] Seq=1 Win=1024 Len=0
+
+Frame 139: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 47260, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 84.453346358   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 140: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 84.454030767   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 141: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 84.537154992   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x636f PTR 4.1.168.192.in-addr.arpa
+
+Frame 142: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 42456, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 84.585263319   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x636f No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 143: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 42456
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 84.606432008   192.168.1.5           192.168.1.4           TCP      54     59249 → 80 [FIN, ACK] Seq=1 Ack=1 Win=1024 Len=0
+
+Frame 144: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 59249, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 84.607009745   192.168.1.4           192.168.1.5           TCP      60     80 → 59249 [RST] Seq=1 Win=0 Len=0
+
+Frame 145: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 80, Dst Port: 59249, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 89.592130089   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.3? Tell 192.168.1.5
+
+Frame 146: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 89.592324615   PCSSystemtec_40:c2:1f PCSSystemtec_d1:f8:5d ARP      60     192.168.1.3 is at 08:00:27:40:c2:1f
+
+Frame 147: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_40:c2:1f (08:00:27:40:c2:1f), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 89.592331643   192.168.1.5           192.168.1.3           DHCP     324    DHCP Request  - Transaction ID 0x3ba95531
+
+Frame 148: 324 bytes on wire (2592 bits), 324 bytes captured (2592 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_40:c2:1f (08:00:27:40:c2:1f)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.3
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+Dynamic Host Configuration Protocol (Request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 89.594671478   192.168.1.3           192.168.1.5           DHCP     590    DHCP ACK      - Transaction ID 0x3ba95531
+
+Frame 149: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_40:c2:1f (08:00:27:40:c2:1f), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 192.168.1.3, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 67, Dst Port: 68
+Dynamic Host Configuration Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 89.784686061   PCSSystemtec_d1:f8:5d Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.5
+
+Frame 150: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 89.785492673   PCSSystemtec_c1:cf:f6 PCSSystemtec_d1:f8:5d ARP      60     192.168.1.4 is at 08:00:27:c1:cf:f6
+
+Frame 151: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 89.852778713   192.168.1.5           8.8.8.8               DNS      84     Standard query 0x8a6e PTR 4.1.168.192.in-addr.arpa
+
+Frame 152: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: 52:54:00:12:35:00 (52:54:00:12:35:00)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 56227, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 89.900901868   8.8.8.8               192.168.1.5           DNS      84     Standard query response 0x8a6e No such name PTR 4.1.168.192.in-addr.arpa
+
+Frame 153: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface eth0, id 0
+Ethernet II, Src: 52:54:00:12:35:00 (52:54:00:12:35:00), Dst: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.1.5
+User Datagram Protocol, Src Port: 53, Dst Port: 56227
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 89.932296445   192.168.1.5           192.168.1.4           TCP      54     34759 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 154: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 34759, Dst Port: 80, Seq: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 90.065963175   192.168.1.5           192.168.1.4           TCP      54     34761 → 80 [<None>] Seq=1 Win=1024 Len=0
+
+Frame 155: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: PCSSystemtec_d1:f8:5d (08:00:27:d1:f8:5d), Dst: PCSSystemtec_c1:cf:f6 (08:00:27:c1:cf:f6)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 34761, Dst Port: 80, Seq: 1, Len: 0
