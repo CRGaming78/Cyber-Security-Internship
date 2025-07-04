@@ -1,2 +1,2 @@
-## Cyber Security from Elevate Labs
+## Cyber Security Internship from Elevate Labs
 ---
